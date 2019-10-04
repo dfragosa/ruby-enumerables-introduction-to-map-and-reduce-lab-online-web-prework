@@ -67,7 +67,7 @@ end
 def reduce_to_any_true(array)
   count = 0  
   while count < array do
-    return true if array[count]  == true 
+    return true if array[count]  == 0
     count +=1
   end  
 return false  
